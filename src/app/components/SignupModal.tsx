@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import SignIn from "./GoogleAuth"
 
 type SignupModalProps = {
   onClose: () => void;
@@ -177,9 +178,10 @@ export default function SignupModal({ onClose }: SignupModalProps) {
         </div>
 
         {/* GOOGLE */}
-        <button className="w-full border border-white/30 p-2 rounded hover:bg-white/10">
+        <SignIn />
+        {/* <button className="w-full border border-white/30 p-2 rounded hover:bg-white/10">
           Continue with Google
-        </button>
+        </button> */}
       </div>
     </div>
   );

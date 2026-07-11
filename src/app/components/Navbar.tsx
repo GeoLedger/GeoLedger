@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import SignupModal from "./SignupModal";
+// import SignIn from "./GoogleAuth"
+
 
 export default function Navbar() {
   const [active, setActive] = useState<string>("Home");
@@ -67,6 +69,7 @@ export default function Navbar() {
             <h2 className="text-green-600 text-sm font-bold py-1 px-4">
               Sign UP
             </h2>
+            
           </div>
         </div>
       </div>
