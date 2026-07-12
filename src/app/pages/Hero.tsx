@@ -4,7 +4,7 @@ import { FaShieldAlt, FaEye, FaBolt } from "react-icons/fa";
 export default function Hero() {
   return (
     <>
-      <div className="flex justify-around  gap-6 items-center p-8">
+      <div className="flex justify-around  gap-6 items-center p-8 text-white">
 
         {/* Left */}
         <div>
@@ -26,7 +26,8 @@ export default function Hero() {
           </div>
 
           <div>
-            <p className="text-sm font-semibold">GeoLedger is a decentralized land registry platform built on Stellar. We make make land ownership secure, transparent, and verifiable for everyone.</p>
+            <p className="text-sm font-semibold">GeoLedger is a decentralized land registry platform built on Stellar.</p> 
+            <p className="text-sm font-semibold">We make make land ownership secure, transparent, and verifiable for everyone.</p> 
           </div>
 
           <div className="flex flex-row gap-3 items-center mt-4">
@@ -49,7 +50,7 @@ export default function Hero() {
 
         {/* Right */}
         <img
-          src="/map2.png"
+          src="/hero1.png"
           alt="GeoLedger Network Map"
           className="w-fit h-auto object-contain"
         />
