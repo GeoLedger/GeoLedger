@@ -32,17 +32,31 @@ export default function Hero() {
 
           <div className="flex flex-row gap-3 items-center mt-4">
 
-            <div className="w-14 h-14 rounded-2xl border border-green-500/30 bg-green-500/5 flex items-center justify-center">
-              <FaShieldAlt className="text-green-400 text-2xl" />
+<div className="flex flex-col items-center">
+            <div className="w-10 h-10 rounded-2xl border-[0.7px] border-green-500/30 bg-green-500/5 flex items-center justify-center">
+              <FaShieldAlt className="text-green-400 text-xl" />
             </div>
+      <p className="text-xs">Secure</p>
+      </div>
 
-            <div className="w-14 h-14 rounded-2xl border border-green-500/30 bg-green-500/5 flex items-center justify-center">
-              <FaEye className="text-green-400 text-2xl" />
-            </div>
+          <div className="border-[0.1px] bg-green-900 py-4"></div>
 
-            <div className="w-14 h-14 rounded-2xl border border-green-500/30 bg-green-500/5 flex items-center justify-center">
-              <FaBolt className="text-green-400 text-2xl" />
+<div className="flex flex-col items-center">
+            <div className="w-10 h-10 rounded-2xl border-[0.7px] border-green-500/30 bg-green-500/5 flex items-center justify-center">
+              <FaEye className="text-green-400 text-xl" />
             </div>
+            <p className="text-xs">Transparent</p>
+</div>
+
+
+            <div className="border-[0.9px] bg-gray-50 py-4"></div>
+
+<div className="flex flex-col items-center">
+            <div className="w-10 h-10 rounded-2xl border-[0.7px] border-green-500/30 bg-green-500/5 flex items-center justify-center">
+              <FaBolt className="text-green-400 text-xl" />
+            </div>
+            <p className="text-xs">Immutable</p>
+</div>
 
           </div>
 
